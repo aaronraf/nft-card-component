@@ -1,0 +1,112 @@
+html > body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 h3 {
+  font-weight: 600;
+}
+
+#nft {
+  color: white;
+}
+
+p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 19rem;
+  height: auto;
+  padding: 23px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.card > img {
+  border-radius: 10px;
+  width: auto;
+}
+
+.ethTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.ethTime div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.ethTime img {
+  height: fit-content;
+  margin: 0 0.5rem 0 0;
+}
+
+.ethTime > p {
+  font-weight: 400;
+}
+
+#eth {
+  color: hsl(178, 100%, 50%);
+  font-size: 18px;
+}
+
+hr {
+  height: 2px;
+  width: 100%;
+  margin: 0 0 1rem 0;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+}
+
+.credit {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.credit > p {
+  margin-left: 1rem;
+}
+
+.credit > img {
+  height: 2rem;
+  border: 1.75px solid white;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
